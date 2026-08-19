@@ -4,9 +4,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import '../styles/AdminLogin.css';
 
 // Pre-computed SHA-256 hashes for security
-// Username: "admin"
+// Username hash
 const USER_HASH = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918";
-// Password: "@admin456123"
+// Password hash
 const PASS_HASH = "26d0c00d9bd59054613b83d3bb736437b881c69cad4e4f52636ecd5166f424f3";
 
 const Login = () => {
